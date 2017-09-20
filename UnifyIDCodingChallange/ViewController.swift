@@ -23,8 +23,8 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
     }
     
     //Change these here after taking pictures to see that the keychain will fail and not allow access
-    let username = "User"
-    let password = "password3"
+    let USERNAME = "User"
+    let PASSWORD = "password3"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,11 +78,11 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
                 
                 // This is a new account, create a new keychain item with the account name.
                 let passwordItem = KeychainPasswordItem(service: KeychainConfiguration.serviceName,
-                                                        account: username,
+                                                        account: USERNAME,
                                                         accessGroup: KeychainConfiguration.accessGroup)
                 
                 // Save the password for the new item.
-                try passwordItem.savePassword(password)
+                try passwordItem.savePassword(PASSWORD)
             } catch {
                 fatalError("Error updating keychain - \(error)")
             }
@@ -91,7 +91,7 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
             
             
             let alertView = UIAlertController(title: "Picture Taken",
-                                              message: "Pictures were taken and protected with the username: \(username) and password: \(password)",
+                                              message: "Pictures were taken and protected with the username: \(USERNAME) and password: \(PASSWORD)",
                 preferredStyle: .alert)
             
             
@@ -108,7 +108,7 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
     
     
     @IBAction func login(_ sender: AnyObject) {
-        if checkLogin(username: username, password: password) {
+        if checkLogin(username: USERNAME, password: PASSWORD) {
             performSegue(withIdentifier: "pictureSegue", sender: self)
         } else {
             
