@@ -24,4 +24,4 @@ I lost some time correcting this issue and as a result I was not able to finish 
 
 However, time permitting I was planning on using CoreData to store the UIImages captured from SwiftyCam locally to the device. After they were stored I would only allow them to be read back into memory once the identity of the user was verified using my implementation of the secure key chain. 
 
-Thank you for the challenge!! I found it refreshing in comparison to other on line pre interview screening techniques such as HackerRank. 
+Thank you for the challenge!! Using aspects of the hardware like the camera and using key chain authentication locally on the device was fairly new to me. I found it refreshing in comparison to other on line pre interview screening techniques such as HackerRank and a nice learning experience. 
