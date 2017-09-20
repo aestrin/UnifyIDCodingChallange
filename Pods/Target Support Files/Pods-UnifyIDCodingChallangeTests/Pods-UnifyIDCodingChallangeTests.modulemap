@@ -1,0 +1,6 @@
+framework module Pods_UnifyIDCodingChallangeTests {
+  umbrella header "Pods-UnifyIDCodingChallangeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

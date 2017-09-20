@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A50941B2036BF8952D9DCC24CD341E /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */; };
+		0EA149F269E4DAF47D7A621E6FA74390 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */; };
+		12B4475240890BBA35409FDFA75E5598 /* Pods-UnifyIDCodingChallange-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9583AB8AB5275ACA00C200C6B9E2864A /* Pods-UnifyIDCodingChallange-dummy.m */; };
+		2B0D16691433CA97DD873714D2F30EE2 /* Pods-UnifyIDCodingChallangeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4571D397EE84AC8DE4C3B45A99FB560F /* Pods-UnifyIDCodingChallangeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CB15B5BF0CA51A09A8803D04742150B /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */; };
+		42D585AD765C6BA71C2EB07DFE05791F /* Pods-UnifyIDCodingChallangeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DFC07150762D94D2CC4715EC41B2D /* Pods-UnifyIDCodingChallangeTests-dummy.m */; };
+		5B1804135C8B379B10240DA84E57B11E /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */; };
+		604EE13898FBD23DC09E6F3411C79C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		934212C3AD346F64DB5D28DBDF97BB27 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */; };
+		A95E48015F25859B711C102E636921B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BAD5C02AE1C1624664142328DD280CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F48478F3F03A204B773DABD32E0EB7AA /* Pods-UnifyIDCodingChallange-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBD4FB1EF76930E083188071EFCBCFD /* Pods-UnifyIDCodingChallange-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F9934A82FA9BD319092FDAEA3AB57A /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB220F00BE314FB43EE7CD3425F53E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D5373EF532ABE8F9133B66460CF4EB;
+			remoteInfo = SwiftyCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1463319B6C370A263988F33E1EBBC809 /* Pods-UnifyIDCodingChallangeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnifyIDCodingChallangeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B7A66F537992A4A071FB841C97CE63A /* Pods_UnifyIDCodingChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnifyIDCodingChallange.framework; path = "Pods-UnifyIDCodingChallange.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD1D61970BA9B7BC329FEC73B963621 /* Pods-UnifyIDCodingChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnifyIDCodingChallange.debug.xcconfig"; sourceTree = "<group>"; };
+		22A2979D5F8CACFA89C48E6DCEE3DF79 /* Pods-UnifyIDCodingChallangeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnifyIDCodingChallangeTests-frameworks.sh"; sourceTree = "<group>"; };
+		3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		3F2D04165A077A09F5F756B065C66F97 /* Pods-UnifyIDCodingChallange-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnifyIDCodingChallange-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4571D397EE84AC8DE4C3B45A99FB560F /* Pods-UnifyIDCodingChallangeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnifyIDCodingChallangeTests-umbrella.h"; sourceTree = "<group>"; };
+		4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.xcconfig; sourceTree = "<group>"; };
+		6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
+		6DBD4FB1EF76930E083188071EFCBCFD /* Pods-UnifyIDCodingChallange-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnifyIDCodingChallange-umbrella.h"; sourceTree = "<group>"; };
+		709DFC07150762D94D2CC4715EC41B2D /* Pods-UnifyIDCodingChallangeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnifyIDCodingChallangeTests-dummy.m"; sourceTree = "<group>"; };
+		7B1A3F4DB5FBFABAF5C70AF5B6B0D04C /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		83148780BDB260A3676CA4BBE2B5C088 /* Pods-UnifyIDCodingChallange-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnifyIDCodingChallange-resources.sh"; sourceTree = "<group>"; };
+		8910B44B7D156F154E5E9AEC7A75BF6F /* Pods-UnifyIDCodingChallange.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UnifyIDCodingChallange.modulemap"; sourceTree = "<group>"; };
+		8A580282FE8C6ACB0CF326D55341D67B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D326405D9909C98A7F9CFBBDE375992 /* Pods-UnifyIDCodingChallangeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnifyIDCodingChallangeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		922473B7E80F0E4C5882C72CAF1B16D5 /* Pods-UnifyIDCodingChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnifyIDCodingChallange.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9583AB8AB5275ACA00C200C6B9E2864A /* Pods-UnifyIDCodingChallange-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnifyIDCodingChallange-dummy.m"; sourceTree = "<group>"; };
+		99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		9C94E860652DE6FEDD6363016C372B3B /* Pods-UnifyIDCodingChallangeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UnifyIDCodingChallangeTests.modulemap"; sourceTree = "<group>"; };
+		A608A3174064FA60660D4777D52F50DE /* Pods-UnifyIDCodingChallangeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnifyIDCodingChallangeTests-resources.sh"; sourceTree = "<group>"; };
+		A8B6EF96A73C9F5BED2145AFFDB507BD /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnifyIDCodingChallangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		B1780531E18AD966DB027BF6F3D10CC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CE3DC3C379CA2D649EF17291B506A6 /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		BC597EB60441547A8E012C040C450241 /* Pods_UnifyIDCodingChallangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnifyIDCodingChallangeTests.framework; path = "Pods-UnifyIDCodingChallangeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7CC0D42716BB03FBC2E42CC734FC8E /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCam.framework; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D46AF53EE438633F4AC5794C128A3256 /* Pods-UnifyIDCodingChallange-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnifyIDCodingChallange-acknowledgements.plist"; sourceTree = "<group>"; };
+		D90248EC727C680379A1B3E77E58C3A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC23D5B3C54FE4DAEF7FC31BBC62B2A /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnifyIDCodingChallangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9609513602E08D7C9EA22E1F844F395 /* Pods-UnifyIDCodingChallange-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnifyIDCodingChallange-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484C3C568D4196B07A1682DD3EF5C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95E48015F25859B711C102E636921B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF851044BED5A800BFF3C0462FAEF9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD5C02AE1C1624664142328DD280CEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6060D3F108405FEA6C76AE0B473739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604EE13898FBD23DC09E6F3411C79C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAB137789309075370324EFADEA4FFD /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				8F787EEDE14A5EFCDCC911F70F08534F /* PreviewView.swift */,
+				7E29E40F6235AC4CFA8CF4A2109ADF7C /* SwiftyCamButton.swift */,
+				B1142CBED6622372D315746E5D725B1E /* SwiftyCamViewController.swift */,
+				99CD94B353A3FC408FD1DDA00ED95410 /* SwiftyCamViewControllerDelegate.swift */,
+				83574DFCF9BBF7F96E7560A429B5EF23 /* Support Files */,
+			);
+			name = SwiftyCam;
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		0B908D219F50293D5D6C12BD5B2B02E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB137789309075370324EFADEA4FFD /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0C6FFADA8367ABD952EC6E3397B16676 /* Pods-UnifyIDCodingChallangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90248EC727C680379A1B3E77E58C3A6 /* Info.plist */,
+				9C94E860652DE6FEDD6363016C372B3B /* Pods-UnifyIDCodingChallangeTests.modulemap */,
+				1463319B6C370A263988F33E1EBBC809 /* Pods-UnifyIDCodingChallangeTests-acknowledgements.markdown */,
+				8D326405D9909C98A7F9CFBBDE375992 /* Pods-UnifyIDCodingChallangeTests-acknowledgements.plist */,
+				709DFC07150762D94D2CC4715EC41B2D /* Pods-UnifyIDCodingChallangeTests-dummy.m */,
+				22A2979D5F8CACFA89C48E6DCEE3DF79 /* Pods-UnifyIDCodingChallangeTests-frameworks.sh */,
+				A608A3174064FA60660D4777D52F50DE /* Pods-UnifyIDCodingChallangeTests-resources.sh */,
+				4571D397EE84AC8DE4C3B45A99FB560F /* Pods-UnifyIDCodingChallangeTests-umbrella.h */,
+				A8B6EF96A73C9F5BED2145AFFDB507BD /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */,
+				EFC23D5B3C54FE4DAEF7FC31BBC62B2A /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */,
+			);
+			name = "Pods-UnifyIDCodingChallangeTests";
+			path = "Target Support Files/Pods-UnifyIDCodingChallangeTests";
+			sourceTree = "<group>";
+		};
+		3972EDD58362F7D5F2097C381FB9DB96 /* Pods-UnifyIDCodingChallange */ = {
+			isa = PBXGroup;
+			children = (
+				B1780531E18AD966DB027BF6F3D10CC8 /* Info.plist */,
+				8910B44B7D156F154E5E9AEC7A75BF6F /* Pods-UnifyIDCodingChallange.modulemap */,
+				3F2D04165A077A09F5F756B065C66F97 /* Pods-UnifyIDCodingChallange-acknowledgements.markdown */,
+				D46AF53EE438633F4AC5794C128A3256 /* Pods-UnifyIDCodingChallange-acknowledgements.plist */,
+				9583AB8AB5275ACA00C200C6B9E2864A /* Pods-UnifyIDCodingChallange-dummy.m */,
+				F9609513602E08D7C9EA22E1F844F395 /* Pods-UnifyIDCodingChallange-frameworks.sh */,
+				83148780BDB260A3676CA4BBE2B5C088 /* Pods-UnifyIDCodingChallange-resources.sh */,
+				6DBD4FB1EF76930E083188071EFCBCFD /* Pods-UnifyIDCodingChallange-umbrella.h */,
+				1CD1D61970BA9B7BC329FEC73B963621 /* Pods-UnifyIDCodingChallange.debug.xcconfig */,
+				922473B7E80F0E4C5882C72CAF1B16D5 /* Pods-UnifyIDCodingChallange.release.xcconfig */,
+			);
+			name = "Pods-UnifyIDCodingChallange";
+			path = "Target Support Files/Pods-UnifyIDCodingChallange";
+			sourceTree = "<group>";
+		};
+		4B0DE4CFE1A61D1652D29A93A074B866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A66F537992A4A071FB841C97CE63A /* Pods_UnifyIDCodingChallange.framework */,
+				BC597EB60441547A8E012C040C450241 /* Pods_UnifyIDCodingChallangeTests.framework */,
+				CB7CC0D42716BB03FBC2E42CC734FC8E /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B908D219F50293D5D6C12BD5B2B02E5 /* Pods */,
+				4B0DE4CFE1A61D1652D29A93A074B866 /* Products */,
+				C7BDF468B69FEC43131F74D26EA5EDC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83574DFCF9BBF7F96E7560A429B5EF23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A580282FE8C6ACB0CF326D55341D67B /* Info.plist */,
+				7B1A3F4DB5FBFABAF5C70AF5B6B0D04C /* SwiftyCam.modulemap */,
+				4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */,
+				3F260082CD9E9D6306D7F71482C3CE01 /* SwiftyCam-dummy.m */,
+				B2CE3DC3C379CA2D649EF17291B506A6 /* SwiftyCam-prefix.pch */,
+				6480079F16B172BC91863C932BE8D2F7 /* SwiftyCam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7BDF468B69FEC43131F74D26EA5EDC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3972EDD58362F7D5F2097C381FB9DB96 /* Pods-UnifyIDCodingChallange */,
+				0C6FFADA8367ABD952EC6E3397B16676 /* Pods-UnifyIDCodingChallangeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B669D01BDC495041C33A8AB6D5ABDC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9934A82FA9BD319092FDAEA3AB57A /* SwiftyCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536BE81E324B51D291B1C82A247AC9D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48478F3F03A204B773DABD32E0EB7AA /* Pods-UnifyIDCodingChallange-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB65975AC5A8B9A7F2B258B079739300 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0D16691433CA97DD873714D2F30EE2 /* Pods-UnifyIDCodingChallangeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20D5373EF532ABE8F9133B66460CF4EB /* SwiftyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14CA5301C28F6D6D19B674511D6B18C /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildPhases = (
+				008D2D673DADC8118A6F377AD5EFF5D3 /* Sources */,
+				484C3C568D4196B07A1682DD3EF5C640 /* Frameworks */,
+				1B669D01BDC495041C33A8AB6D5ABDC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = CB7CC0D42716BB03FBC2E42CC734FC8E /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6420DC40CE2E8206D23989B7A701F45E /* Pods-UnifyIDCodingChallangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B0AC9F06244C19C96C8E0CF67AC906 /* Build configuration list for PBXNativeTarget "Pods-UnifyIDCodingChallangeTests" */;
+			buildPhases = (
+				EAF9CA770A6A5FBF9B8F794AAA38C6E7 /* Sources */,
+				FD6060D3F108405FEA6C76AE0B473739 /* Frameworks */,
+				CB65975AC5A8B9A7F2B258B079739300 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UnifyIDCodingChallangeTests";
+			productName = "Pods-UnifyIDCodingChallangeTests";
+			productReference = BC597EB60441547A8E012C040C450241 /* Pods_UnifyIDCodingChallangeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCEA548DE122A80A80C4118D2D811741 /* Pods-UnifyIDCodingChallange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39DDE33217728EF4F66F93798DDE451 /* Build configuration list for PBXNativeTarget "Pods-UnifyIDCodingChallange" */;
+			buildPhases = (
+				60F24B76FB0A2C58AAC495C2EA26D6F7 /* Sources */,
+				AF851044BED5A800BFF3C0462FAEF9E2 /* Frameworks */,
+				536BE81E324B51D291B1C82A247AC9D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA50A61D6273030ED30E7918A502DB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-UnifyIDCodingChallange";
+			productName = "Pods-UnifyIDCodingChallange";
+			productReference = 1B7A66F537992A4A071FB841C97CE63A /* Pods_UnifyIDCodingChallange.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B0DE4CFE1A61D1652D29A93A074B866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEA548DE122A80A80C4118D2D811741 /* Pods-UnifyIDCodingChallange */,
+				6420DC40CE2E8206D23989B7A701F45E /* Pods-UnifyIDCodingChallangeTests */,
+				20D5373EF532ABE8F9133B66460CF4EB /* SwiftyCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008D2D673DADC8118A6F377AD5EFF5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB15B5BF0CA51A09A8803D04742150B /* PreviewView.swift in Sources */,
+				04A50941B2036BF8952D9DCC24CD341E /* SwiftyCam-dummy.m in Sources */,
+				5B1804135C8B379B10240DA84E57B11E /* SwiftyCamButton.swift in Sources */,
+				0EA149F269E4DAF47D7A621E6FA74390 /* SwiftyCamViewController.swift in Sources */,
+				934212C3AD346F64DB5D28DBDF97BB27 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F24B76FB0A2C58AAC495C2EA26D6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B4475240890BBA35409FDFA75E5598 /* Pods-UnifyIDCodingChallange-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF9CA770A6A5FBF9B8F794AAA38C6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D585AD765C6BA71C2EB07DFE05791F /* Pods-UnifyIDCodingChallangeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA50A61D6273030ED30E7918A502DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 20D5373EF532ABE8F9133B66460CF4EB /* SwiftyCam */;
+			targetProxy = AB220F00BE314FB43EE7CD3425F53E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001375B320FC662C385C02F18BACDE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922473B7E80F0E4C5882C72CAF1B16D5 /* Pods-UnifyIDCodingChallange.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UnifyIDCodingChallange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UnifyIDCodingChallange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37CAC9D2CFF270689B9805A62B5745B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B6EF96A73C9F5BED2145AFFDB507BD /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UnifyIDCodingChallangeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UnifyIDCodingChallangeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97269848FBDECDF6205CC05F4BEE615B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC23D5B3C54FE4DAEF7FC31BBC62B2A /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UnifyIDCodingChallangeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UnifyIDCodingChallangeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2416A5A4C8BDAD333AE5F27BCEB1D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD1D61970BA9B7BC329FEC73B963621 /* Pods-UnifyIDCodingChallange.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UnifyIDCodingChallange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UnifyIDCodingChallange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC5473BBD1C9BB7333762B36D9867718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1D7FBC1E71CE50DE689074016FBE7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A11E64F959EAA086856E03B6D50FB92 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14CA5301C28F6D6D19B674511D6B18C /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5473BBD1C9BB7333762B36D9867718 /* Debug */,
+				E1D7FBC1E71CE50DE689074016FBE7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39DDE33217728EF4F66F93798DDE451 /* Build configuration list for PBXNativeTarget "Pods-UnifyIDCodingChallange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2416A5A4C8BDAD333AE5F27BCEB1D3E /* Debug */,
+				001375B320FC662C385C02F18BACDE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B0AC9F06244C19C96C8E0CF67AC906 /* Build configuration list for PBXNativeTarget "Pods-UnifyIDCodingChallangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CAC9D2CFF270689B9805A62B5745B7 /* Debug */,
+				97269848FBDECDF6205CC05F4BEE615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

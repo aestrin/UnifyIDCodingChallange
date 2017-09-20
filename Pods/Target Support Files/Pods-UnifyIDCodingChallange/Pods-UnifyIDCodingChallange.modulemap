@@ -1,0 +1,6 @@
+framework module Pods_UnifyIDCodingChallange {
+  umbrella header "Pods-UnifyIDCodingChallange-umbrella.h"
+
+  export *
+  module * { export * }
+}

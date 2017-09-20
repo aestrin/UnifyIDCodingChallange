@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A73BFFB97717E342C1F5CDA /* Pods_UnifyIDCodingChallange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623034B1AB4C3FCADDE2F84B /* Pods_UnifyIDCodingChallange.framework */; };
+		A2C6793B129596C453404EC8 /* Pods_UnifyIDCodingChallangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBAC846D2747904F2FC660 /* Pods_UnifyIDCodingChallangeTests.framework */; };
+		E74E3F791F72D13A00A94642 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F751F72D13A00A94642 /* SwiftyCamViewController.swift */; };
+		E74E3F7A1F72D13A00A94642 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F761F72D13A00A94642 /* SwiftyCamViewControllerDelegate.swift */; };
+		E74E3F7B1F72D13A00A94642 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F771F72D13A00A94642 /* SwiftyCamButton.swift */; };
+		E74E3F7C1F72D13A00A94642 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F781F72D13A00A94642 /* PreviewView.swift */; };
+		E74E3F821F72E22700A94642 /* PictureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F811F72E22700A94642 /* PictureTableViewController.swift */; };
+		E74E3F881F72E47500A94642 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E3F841F72E47500A94642 /* KeychainPasswordItem.swift */; };
+		E74E3F891F72E47500A94642 /* Touch-icon-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = E74E3F851F72E47500A94642 /* Touch-icon-lg.png */; };
+		E74E3F8A1F72E47500A94642 /* Touch-icon-lg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E74E3F861F72E47500A94642 /* Touch-icon-lg@2x.png */; };
+		E74E3F8B1F72E47500A94642 /* Touch-icon-lg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E74E3F871F72E47500A94642 /* Touch-icon-lg@3x.png */; };
 		E7C8D7A41F72CAC800AA18E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8D7A31F72CAC800AA18E4 /* AppDelegate.swift */; };
 		E7C8D7A61F72CAC800AA18E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8D7A51F72CAC800AA18E4 /* ViewController.swift */; };
 		E7C8D7A91F72CAC800AA18E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C8D7A71F72CAC800AA18E4 /* Main.storyboard */; };
@@ -27,6 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F14F4582A82724D82EEAA67 /* Pods-UnifyIDCodingChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDCodingChallange.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange.release.xcconfig"; sourceTree = "<group>"; };
+		48DBAC846D2747904F2FC660 /* Pods_UnifyIDCodingChallangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnifyIDCodingChallangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623034B1AB4C3FCADDE2F84B /* Pods_UnifyIDCodingChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnifyIDCodingChallange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB296A2280E6EEE4471BC1 /* Pods-UnifyIDCodingChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDCodingChallange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange.debug.xcconfig"; sourceTree = "<group>"; };
+		8ACDA1AEC0FF85933C14F2BF /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDCodingChallangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B28C8C5E6012F767FF35EFE /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDCodingChallangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74E3F751F72D13A00A94642 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		E74E3F761F72D13A00A94642 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E74E3F771F72D13A00A94642 /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		E74E3F781F72D13A00A94642 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E74E3F811F72E22700A94642 /* PictureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewController.swift; sourceTree = "<group>"; };
+		E74E3F841F72E47500A94642 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		E74E3F851F72E47500A94642 /* Touch-icon-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Touch-icon-lg.png"; sourceTree = "<group>"; };
+		E74E3F861F72E47500A94642 /* Touch-icon-lg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Touch-icon-lg@2x.png"; sourceTree = "<group>"; };
+		E74E3F871F72E47500A94642 /* Touch-icon-lg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Touch-icon-lg@3x.png"; sourceTree = "<group>"; };
 		E7C8D7A01F72CAC800AA18E4 /* UnifyIDCodingChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifyIDCodingChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C8D7A31F72CAC800AA18E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C8D7A51F72CAC800AA18E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A73BFFB97717E342C1F5CDA /* Pods_UnifyIDCodingChallange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +79,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C6793B129596C453404EC8 /* Pods_UnifyIDCodingChallangeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A042CAA853C18FD1B1BE1D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB296A2280E6EEE4471BC1 /* Pods-UnifyIDCodingChallange.debug.xcconfig */,
+				1F14F4582A82724D82EEAA67 /* Pods-UnifyIDCodingChallange.release.xcconfig */,
+				8B28C8C5E6012F767FF35EFE /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */,
+				8ACDA1AEC0FF85933C14F2BF /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E74E3F741F72D12100A94642 /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				E74E3F751F72D13A00A94642 /* SwiftyCamViewController.swift */,
+				E74E3F761F72D13A00A94642 /* SwiftyCamViewControllerDelegate.swift */,
+				E74E3F771F72D13A00A94642 /* SwiftyCamButton.swift */,
+				E74E3F781F72D13A00A94642 /* PreviewView.swift */,
+			);
+			name = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		E74E3F831F72E47500A94642 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E74E3F841F72E47500A94642 /* KeychainPasswordItem.swift */,
+				E74E3F851F72E47500A94642 /* Touch-icon-lg.png */,
+				E74E3F861F72E47500A94642 /* Touch-icon-lg@2x.png */,
+				E74E3F871F72E47500A94642 /* Touch-icon-lg@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E7C8D7971F72CAC800AA18E4 = {
 			isa = PBXGroup;
 			children = (
 				E7C8D7A21F72CAC800AA18E4 /* UnifyIDCodingChallange */,
 				E7C8D7BA1F72CAC800AA18E4 /* UnifyIDCodingChallangeTests */,
 				E7C8D7A11F72CAC800AA18E4 /* Products */,
+				9A042CAA853C18FD1B1BE1D9 /* Pods */,
+				F21651EA110E1A84B7E9225D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +142,10 @@
 		E7C8D7A21F72CAC800AA18E4 /* UnifyIDCodingChallange */ = {
 			isa = PBXGroup;
 			children = (
+				E74E3F831F72E47500A94642 /* Resources */,
+				E74E3F741F72D12100A94642 /* SwiftyCam */,
 				E7C8D7A31F72CAC800AA18E4 /* AppDelegate.swift */,
+				E74E3F811F72E22700A94642 /* PictureTableViewController.swift */,
 				E7C8D7A51F72CAC800AA18E4 /* ViewController.swift */,
 				E7C8D7A71F72CAC800AA18E4 /* Main.storyboard */,
 				E7C8D7AD1F72CAC800AA18E4 /* Assets.xcassets */,
@@ -99,6 +165,15 @@
 			path = UnifyIDCodingChallangeTests;
 			sourceTree = "<group>";
 		};
+		F21651EA110E1A84B7E9225D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623034B1AB4C3FCADDE2F84B /* Pods_UnifyIDCodingChallange.framework */,
+				48DBAC846D2747904F2FC660 /* Pods_UnifyIDCodingChallangeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C8D7C01F72CAC800AA18E4 /* Build configuration list for PBXNativeTarget "UnifyIDCodingChallange" */;
 			buildPhases = (
+				6C5688EECF25197B335FD149 /* [CP] Check Pods Manifest.lock */,
 				E7C8D79C1F72CAC800AA18E4 /* Sources */,
 				E7C8D79D1F72CAC800AA18E4 /* Frameworks */,
 				E7C8D79E1F72CAC800AA18E4 /* Resources */,
+				BB906F9DE8F8F1A61E54CF0E /* [CP] Embed Pods Frameworks */,
+				4060ED97F9148539CB2B24E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C8D7C31F72CAC800AA18E4 /* Build configuration list for PBXNativeTarget "UnifyIDCodingChallangeTests" */;
 			buildPhases = (
+				AD4515A029E534AF1F96A0BE /* [CP] Check Pods Manifest.lock */,
 				E7C8D7B31F72CAC800AA18E4 /* Sources */,
 				E7C8D7B41F72CAC800AA18E4 /* Frameworks */,
 				E7C8D7B51F72CAC800AA18E4 /* Resources */,
+				057CB80FC0F953019D6BFD30 /* [CP] Embed Pods Frameworks */,
+				8E4E07843DD8745BFA0863A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +230,7 @@
 				TargetAttributes = {
 					E7C8D79F1F72CAC800AA18E4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2W7MNXUXSN;
 						ProvisioningStyle = Automatic;
 					};
 					E7C8D7B61F72CAC800AA18E4 = {
@@ -183,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C8D7B11F72CAC800AA18E4 /* LaunchScreen.storyboard in Resources */,
+				E74E3F8B1F72E47500A94642 /* Touch-icon-lg@3x.png in Resources */,
+				E74E3F891F72E47500A94642 /* Touch-icon-lg.png in Resources */,
 				E7C8D7AE1F72CAC800AA18E4 /* Assets.xcassets in Resources */,
+				E74E3F8A1F72E47500A94642 /* Touch-icon-lg@2x.png in Resources */,
 				E7C8D7A91F72CAC800AA18E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +282,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		057CB80FC0F953019D6BFD30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4060ED97F9148539CB2B24E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5688EECF25197B335FD149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4E07843DD8745BFA0863A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifyIDCodingChallangeTests/Pods-UnifyIDCodingChallangeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4515A029E534AF1F96A0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB906F9DE8F8F1A61E54CF0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifyIDCodingChallange/Pods-UnifyIDCodingChallange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7C8D79C1F72CAC800AA18E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,7 +382,13 @@
 			files = (
 				E7C8D7AC1F72CAC800AA18E4 /* UnifyIDCodingChallange.xcdatamodeld in Sources */,
 				E7C8D7A61F72CAC800AA18E4 /* ViewController.swift in Sources */,
+				E74E3F7C1F72D13A00A94642 /* PreviewView.swift in Sources */,
+				E74E3F791F72D13A00A94642 /* SwiftyCamViewController.swift in Sources */,
+				E74E3F821F72E22700A94642 /* PictureTableViewController.swift in Sources */,
+				E74E3F881F72E47500A94642 /* KeychainPasswordItem.swift in Sources */,
+				E74E3F7B1F72D13A00A94642 /* SwiftyCamButton.swift in Sources */,
 				E7C8D7A41F72CAC800AA18E4 /* AppDelegate.swift in Sources */,
+				E74E3F7A1F72D13A00A94642 /* SwiftyCamViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +525,10 @@
 		};
 		E7C8D7C11F72CAC800AA18E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB296A2280E6EEE4471BC1 /* Pods-UnifyIDCodingChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W7MNXUXSN;
 				INFOPLIST_FILE = UnifyIDCodingChallange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdamEstrin.UnifyIDCodingChallange;
@@ -353,8 +539,10 @@
 		};
 		E7C8D7C21F72CAC800AA18E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F14F4582A82724D82EEAA67 /* Pods-UnifyIDCodingChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W7MNXUXSN;
 				INFOPLIST_FILE = UnifyIDCodingChallange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdamEstrin.UnifyIDCodingChallange;
@@ -365,6 +553,7 @@
 		};
 		E7C8D7C41F72CAC800AA18E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B28C8C5E6012F767FF35EFE /* Pods-UnifyIDCodingChallangeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,6 +568,7 @@
 		};
 		E7C8D7C51F72CAC800AA18E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACDA1AEC0FF85933C14F2BF /* Pods-UnifyIDCodingChallangeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +600,7 @@
 				E7C8D7C21F72CAC800AA18E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7C8D7C31F72CAC800AA18E4 /* Build configuration list for PBXNativeTarget "UnifyIDCodingChallangeTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +609,7 @@
 				E7C8D7C51F72CAC800AA18E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
