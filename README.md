@@ -2,11 +2,11 @@
 
 In order to run the project:
 
-1) Clone the repository and open the Xcode project.
+1) Clone the repository and open the Xcode .xcworkspace (note: make sure to open the .xcworkspace not the .xcproject)
 2) Connect a iOS device with a front facing camera running iOS 10.3 or later
-3) Test
+3) Test with instructions bellow
 
-## Implementation:
+## Implementation and Instructions:
 
 To complete this task I used a library called SwiftyCam to handle capturing pictures of the user through the front facing camera. After the 10 pictures are taken over a interval of 5 seconds a password key chain is stored securely using an Apple provided struct called KeychainPasswordItem. This key chain is persisted to the device and can be checked against to ensure that credentials provided by a future user trying to access the stored pictures matches. 
 

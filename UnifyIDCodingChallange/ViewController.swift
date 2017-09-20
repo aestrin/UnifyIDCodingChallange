@@ -24,7 +24,7 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
     
     //Change these here after taking pictures to see that the keychain will fail and not allow access
     let USERNAME = "User"
-    let PASSWORD = "password3"
+    let PASSWORD = "password1"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,7 +90,7 @@ class ViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate {
             UserDefaults.standard.set(true, forKey: "hasTakenPictures")
             
             
-            let alertView = UIAlertController(title: "Picture Taken",
+            let alertView = UIAlertController(title: "Pictures Taken",
                                               message: "Pictures were taken and protected with the username: \(USERNAME) and password: \(PASSWORD)",
                 preferredStyle: .alert)
             
