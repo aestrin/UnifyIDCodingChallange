@@ -1,4 +1,4 @@
-#Instructions:
+# Instructions:
 
 In order to run the project:
 
@@ -6,7 +6,7 @@ In order to run the project:
 2) Connect a iOS device with a front facing camera running iOS 10.3 or later
 3) Test
 
-##Implementation:
+## Implementation:
 
 To complete this task I used a library called SwiftyCam to handle capturing pictures of the user through the front facing camera. After the 10 pictures are taken over a interval of 5 seconds a password key chain is stored securely using an Apple provided struct called KeychainPasswordItem. This key chain is persisted to the device and can be checked against to ensure that credentials provided by a future user trying to access the stored pictures matches. 
 
@@ -16,7 +16,7 @@ In order for you to test that the credentials are verified correctly go into Vie
 
 Rerun the app and tap "Login for Pictures". Since the password constant was changed it will not match the credentials stored in the key chain. If the password constant was not changed access will be granted to the next view controller, which contains a table view to display the captured pictures. 
 
-##Further Considerations:
+## Further Considerations:
 
 Unfortunately once I started the challenge I quickly realized that I upgraded my iPhone to iOS 11 on 9/19 when it was released and I had not updated my Xcode to Xcode 9 so I was unable to test on my physical device without taking the time to upgrade :o
 
